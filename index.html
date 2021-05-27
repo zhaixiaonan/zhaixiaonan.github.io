@@ -152,6 +152,71 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-my5-27" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2021/05/27/my5-27/">my5.27</a>
+    </h1>
+  
+
+        
+        <a href="/2021/05/27/my5-27/" class="archive-article-date">
+  	<time datetime="2021-05-27T14:07:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-05-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#上午：<br>把交通路口的车辆行驶代码弄出来了，之前写的都是错的，之前用点写的，点的位置固定不好，车走的很怪异，然后取的点让他固定在停车线附近。这样有个问题就是车每秒走得很快，位置固定不好，所有车停的位置都不齐。修正了一下，让车走线，线上取点。</p>
+<p>代码里给车写了行驶，暂停的方法，每个去调用。在模模搭里，创建线，车，让车有个属性lineid，把属性值当成线的id，让车获取线的属性，让车的两个点为一个路径，一直再往前走，给线初始状态，让他红灯停，路灯行。<br>##问题<br>在红灯的时候，还要走，到停车线在停，这块有问题，红灯flag=true，给初始值，然后按照红路灯交替代码写对应条件。</p>
+<p>先给值，在创建画布，否则会有一秒的延迟。<br>#下午<br>找了一个图表，类似天空盒样式，能实现天气转换<br>问题是之前用html里写script标签可以，后来，从新写js文件创建类，在主文件里引用，但忘记new一个类的声明了，<br>还有饼图分三块分别点击控制不同事件，就是在事件里写if（怕rams.name==‘晴天’）或其他就可以了</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2021/05/27/my5-27/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-js第三天" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
